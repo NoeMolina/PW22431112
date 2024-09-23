@@ -5,12 +5,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!-- <meta http-equiv="refresh" content="1"> -->
     <title>Práctica 02 CSS3</title>
+    <link rel="stylesheet" href="css/estilos.css">
 </head>
 <body>
     <header>
         <img src="img/banner.png" alt="Banner">
-        <img src="img/granthams.png" alt="Granthams">
-        <img src="img/paint.png" alt="Pintura">
+        <img src="img/granthams.png" alt="Granthams" id="granthams">
+        <img src="img/paint.png" alt="Pintura" id="paint">
         <input type="search" placeholder="Search">
         <nav>
             <ul>
@@ -22,12 +23,14 @@
             </ul>
         </nav>
     </header>
-    <section>
-        <article>
+    <section id="primerSeccion">
+        <article id="secc01art01">
             <img src="img/slide.jpg" alt="Slide">
         </article>
-        <article>
-            We can offer
+        <article id="secc01art02">
+            <span class="colorRosa letraGrande nito">
+                We can offer...
+            </span>
             <ul>
                 <li>Hightly Competitive Prices</li>
                 <li>Variable Data</li>
@@ -39,39 +42,55 @@
                 <li>Great Customer Service</li>
             </ul>
         </article>
-        <img src="img/bg_offer.png" alt="Offers">
+        <img src="img/bg_offer.png" alt="Offers" id="bgoffer">
     </section>
-    <section>
+    <section id="segundaSeccion">
         <article>
-            01772 250207
+            <span class="colorRosa nito letraMediana">
+                01772 250207
+            </span>
         </article>
     </section>
-    <section>
+    <section id="terceraSeccion">
         <article>
             <img src="img/cerdito.png" alt="Cerdito">
-            Save this Spring
+            <span class="colorRosa nito">
+                Save this Spring
+            </span>
+            
             <br>
             Lorem ipsum dolor sit, amet consectetur adipisicing elit. Corporis nemo veritatis neque iure laborum voluptate, repellendus ea velit laudantium, atque provident aspernatur possimus necessitatibus officiis magnam repudiandae quos expedita molestias.
             <p>
-            Find out more...
+            <span class="colorRosa nito">
+                Find out more...
+            </span>
         </article>
         <article>
             <img src="img/hoja.png" alt="Hoja">
-            ECO Friendly
+             <span class="colorVerde nito">
+                ECO Friendly
+            </span>
             <br>
             Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolores, aperiam iste accusantium pariatur odit perspiciatis minima, reprehenderit molestias sint tenetur hic ipsam? Molestias libero consequatur error optio, ducimus explicabo sunt!
         </article>
         <article>
             <img src="img/new.png" alt="Nuevo">
+            <span class="colorAzul nito">
+                Upload You File
+            </span>
             <br>
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis perspiciatis numquam doloribus repellat architecto quos voluptatem dolor facere ab iusto non veniam porro molestias amet, in, maxime placeat vero deserunt?
             <p></p>
-            Upload Your File now
+            <span class="colorAzul">
+                Upload Your File now     
+            </span>
         </article>
-        <article>
-            Stay in touch   
+        <article id="secc03art04">
+            <span class="colorRosa letraMediana">
+                Stay in touch   
+            </span>
             <br>
-            Join our mailing list today <br>
+            Join our mailing list today <p>
             <input type="email" placeholder="Email goes here">
             <input type="button" value="send">
         </article>
@@ -90,9 +109,9 @@
         <article>
             <input type="button" value="Valid HTML5">
         </article>
-        <img src="img/icon_facebook.png" alt="Facebook">
-        <img src="img/icon_twitter.png" alt="X">
-        <img src="img/image-right.png" alt="Personas">
+        <img src="img/icon_facebook.png" alt="Facebook" id="Facebook">
+        <img src="img/icon_twitter.png" alt="X" id="twitter">
+        <img src="img/image-right.png" alt="Personas" id="personas">
     </footer>
 </body>
 </html>
