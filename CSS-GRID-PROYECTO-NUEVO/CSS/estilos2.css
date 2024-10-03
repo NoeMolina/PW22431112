@@ -1,0 +1,25 @@
+body{
+    font-family: sans-serif;
+    background: #FFF;
+}
+.acercade{
+    height: 500px;
+    margin: 80px auto;
+    width: 900px;
+}
+.acercade_img{
+    height: 100%;
+    width: 100%;
+}
+.acercade_gradiante{
+    background-image: linear-gradient(to top, #0250C5 0%, #d43fd4 100%);
+}
+.acercade_article{
+    background: #FFF;
+    box-shadow: 0px 0PX 10PX -8PX black;
+    padding: 1.5em;
+}
+.acercade_titulo{
+    font-size: 2em;
+    margin-bottom: 16px;
+}
