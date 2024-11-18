@@ -1,0 +1,14 @@
+{
+  "name": "calculadora",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "ejecutar": "ts-node multiplicacion.ts",
+    "calcula": "ts-node calculadora.ts",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": ["typescript", "web", "programacion", "it culiacan"],
+  "author": "Molina leon noe marcelino",
+  "license": "ISC",
+  "description": "ejemplos de uso de typescript"
+}
